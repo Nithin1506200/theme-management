@@ -1,0 +1,34 @@
+@import 'measurements';
+
+:root,
+.default {
+  --primary-hero-col: black;
+  --primary-background-col: white;
+  --secondary-background-col: grey;
+  --primary-shadow: var(--shadow-1) grey;
+  --primary-border: var(--border) black solid;
+}
+
+.dark_ {
+  --primary-hero-col: rgb(255, 255, 255);
+  --primary-background-col: rgb(0, 0, 0);
+  --secondary-background-col: rgb(124, 124, 124);
+  --primary-shadow: 2px 2px 2px 2px rgb(212, 212, 212);
+  --primary-border: var(--border) rgb(255, 255, 255) solid;
+}
+
+.neon_ {
+  --primary-hero-col: var(--neon-col);
+  --primary-background-col: rgb(1, 39, 52);
+  --secondary-background-col: rgb(89, 130, 164);
+  --primary-shadow: var(--shadow-1) grey;
+  --primary-border: var(--border) var(--neon-col) solid;
+}
+
+.lime_ {
+  --primary-hero-col: lime;
+  --primary-background-col: rgb(2, 53, 2);
+  --secondary-background-col: rgb(78, 174, 144);
+  --primary-shadow: var(--shadow-1) grey;
+  --primary-border: var(--border) lime solid;
+}
